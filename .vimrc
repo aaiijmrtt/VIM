@@ -7,10 +7,11 @@
 :set mouse=a " enable mouse usage
 :set whichwrap+=<,>,h,l,[,] " enable cursor line wrapping
 
-" pathogen bundle manager
-
+" pathogen
 execute pathogen#infect()
 
-" nerdtree file system explorer
-
+" nerdtree
 let NERDTreeIgnore=['\.o$','\.class$','\.pyc$']
+
+" nerdtree tabs
+let g:nerdtree_tabs_open_on_console_startup=1
